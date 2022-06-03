@@ -19,7 +19,7 @@
   box-sizing: border-box;
 }
 
-header, h1, nav, .list-comment {
+header, h1, nav, .list-comment, .new-post, .form {
   font-family: 'Kaushan', cursive, sans-serif;
 }
 
@@ -33,6 +33,14 @@ header {
 
 header .headline {
   font-size: 32px;
+}
+
+.headline {
+  margin: 0 auto;
+  width: 300px;
+  background-color: #ffbb55;
+  /*background-color: #f39800;*/
+  border-radius:5px;
 }
 
 nav {
@@ -49,9 +57,13 @@ nav {
 }
 
 .nav-list-item {
+  background-color: #5aff19;
+  border-top-right-radius:50px;
+  border-bottom-left-radius: 50px;
   list-style: none;
   display: inline-block;
   margin: 0 20px;
+  
 }
 
 main {
@@ -83,4 +95,20 @@ main {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+}
+
+.new-post {
+  margin: 25px 0 10px 0;
+  width: 200px;
+  text-align: center;
+  background-color: pink;
+  border-radius:5px;
+}
+
+.form {
+  padding-left: 10px;
+}
+
+.button {
+  background-color: pink;
 }
